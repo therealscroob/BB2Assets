@@ -209,11 +209,6 @@ WaveSchedule
 				EntFire(`bombpath_arrows_clear_relay`, `Trigger`, null, 0.1)
 				EntFire(`bombpath_right_relay`, `Trigger`, null, 0.5)
 
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				if (ent)
-				{
-					//NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Quantum Processing (Advanced)`)
-				}
 
 				if(!(`bomb_backtracker` in getroottable()))
 				{
@@ -684,11 +679,6 @@ WaveSchedule
 				EntFire(`bombpath_arrows_clear_relay`, `Trigger`, null, 0.1)
 				EntFire(`bombpath_left_relay`, `Trigger`, null, 0.5)
 
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				if (ent)
-				{
-					//NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Quantum Processing (Advanced)`)
-				}
 
 				if(!(`tankextensions_main` in getroottable()))
 				{
@@ -1191,11 +1181,6 @@ WaveSchedule
 				EntFire(`bombpath_arrows_clear_relay`, `Trigger`, null, 0.1)
 				EntFire(`bombpath_right_relay`, `Trigger`, null, 0.5)
 
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				if (ent)
-				{
-					//NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Quantum Processing (Advanced)`)
-				}
 
 				if(!(`tankextensions_main` in getroottable()))
 				{
@@ -1782,11 +1767,6 @@ WaveSchedule
 				EntFire(`bombpath_arrows_clear_relay`, `Trigger`, null, 0.1)
 				EntFire(`bombpath_left_relay`, `Trigger`, null, 0.5)
 
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				if (ent)
-				{
-					//NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Quantum Processing (Advanced)`)
-				}
 
 				if(!(`tankextensions_main` in getroottable()))
 				{

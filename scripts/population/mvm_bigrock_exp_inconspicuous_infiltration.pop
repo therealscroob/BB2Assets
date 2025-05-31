@@ -197,31 +197,7 @@ WaveSchedule
 				Target wave_start_relay
 				Action Trigger
 			}
-		InitWaveOutput
-			{
-			Target wave_start_relay
-			action runscriptcode 
-            param
-			"
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
 
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
-			}
 		DoneOutput					
 			{
 				Target wave_finished_relay
@@ -437,31 +413,7 @@ WaveSchedule
 				Target wave_start_relay
 				Action Trigger
 			}
-		InitWaveOutput
-			{
-			Target wave_start_relay
-			action runscriptcode 
-            param
-			"
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
 
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
-			}
 		DoneOutput					
 			{
 				Target wave_finished_relay
@@ -696,31 +648,7 @@ WaveSchedule
 				Target wave_start_relay
 				Action Trigger
 			}
-		InitWaveOutput
-			{
-			Target wave_start_relay
-			action runscriptcode 
-            param
-			"
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
 
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
-			}
 		DoneOutput					
 			{
 				Target wave_finished_relay
@@ -912,31 +840,7 @@ WaveSchedule
 				Target wave_start_relay
 				Action Trigger
 			}
-		InitWaveOutput
-			{
-			Target wave_start_relay
-			action runscriptcode 
-            param
-			"
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
 
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
-			}
 		DoneOutput					
 			{
 				Target wave_finished_relay
@@ -1086,31 +990,7 @@ WaveSchedule
 				Target wave_start_relay
 				Action Trigger
 			}
-		InitWaveOutput
-			{
-			Target wave_start_relay
-			action runscriptcode 
-            param
-			"
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
 
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
-			}
 		DoneOutput					
 			{
 				Target wave_finished_relay
@@ -1422,31 +1302,7 @@ WaveSchedule
 				Target wave_start_relay
 				Action Trigger
 			}
-		InitWaveOutput
-			{
-			Target wave_start_relay
-			action runscriptcode 
-            param
-			"
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Inconspicuous Infiltration (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
 
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
-			}
 		DoneOutput					
 			{
 				Target wave_finished_relay

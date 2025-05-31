@@ -30,8 +30,6 @@
 				{
 					"origin" "0 0 0" 
 					"targetname" "coolrelay"
-                
-					"OnTrigger" "tf_objective_resource,$SetClientProp$m_iszMvMPopfileName,Assault and Battery,0,-1"
 					"OnTrigger" "bots_win,AddOutput,OnRoundWin mus_heatwave_fail:Trigger:0:-1"
 				}
 				ambient_generic 

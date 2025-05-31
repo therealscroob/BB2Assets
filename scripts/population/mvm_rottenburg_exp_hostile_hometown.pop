@@ -263,28 +263,8 @@ Mission
 		InitWaveOutput
         {
             Target gamerules
-            Action RunScriptCode
-            Param
-            "
-                IncludeScript(`pyro_spinner2`)
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Hostile Hometown (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Hostile Hometown (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
-
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
+            Action RunScriptFile
+            Param pyro_spinner2
         }
 		DoneOutput
 		{
@@ -550,28 +530,8 @@ Mission
 		InitWaveOutput
         {
             Target gamerules
-            Action RunScriptCode
-            Param
-            "
-                IncludeScript(`pyro_spinner2`)
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Hostile Hometown (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Hostile Hometown (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
-
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
+            Action RunScriptFile
+            Param pyro_spinner2
         }
 		DoneOutput
 		{
@@ -896,28 +856,8 @@ Mission
 		InitWaveOutput
         {
             Target gamerules
-            Action RunScriptCode
-            Param
-            "
-                IncludeScript(`pyro_spinner2`)
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Hostile Hometown (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Hostile Hometown (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
-
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
+            Action RunScriptFile
+			Param pyro_spinner2
         }
 		DoneOutput
 		{
@@ -1269,28 +1209,8 @@ Mission
 		InitWaveOutput
         {
             Target gamerules
-            Action RunScriptCode
-            Param
-            "
-                IncludeScript(`pyro_spinner2`)
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Hostile Hometown (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Hostile Hometown (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
-
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
+            Action RunScriptFile
+            Param pyro_spinner2
         }
 		DoneOutput
 		{
@@ -1741,28 +1661,8 @@ Mission
 		InitWaveOutput
         {
             Target gamerules
-            Action RunScriptCode
-            Param
-            "
-                IncludeScript(`pyro_spinner2`)
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Hostile Hometown (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Hostile Hometown (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
-
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
+            Action RunScriptFile
+            Param pyro_spinner2
         }
 		DoneOutput
 		{
@@ -2014,28 +1914,8 @@ Mission
 		InitWaveOutput
         {
             Target gamerules
-            Action RunScriptCode
-            Param
-            "
-                IncludeScript(`pyro_spinner2`)
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Hostile Hometown (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Hostile Hometown (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
-
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
+            Action RunScriptFile
+            Param pyro_spinner2
         }
 		DoneOutput
 		{
@@ -2350,28 +2230,8 @@ Mission
 		InitWaveOutput
         {
             Target gamerules
-            Action RunScriptCode
-            Param
-            "
-                IncludeScript(`pyro_spinner2`)
-				local ent = Entities.FindByClassname(null, `tf_objective_resource`)
-				local IsSigmod = Convars.GetInt(`sig_etc_misc`) != null
-                if (IsSigmod == true) {
-                    ent.AcceptInput(`$SetClientProp$m_iszMvMPopfileName`, `Hostile Hometown (Expert)`, null, null)
-                }
-                else {
-                    NetProps.SetPropString(ent, `m_iszMvMPopfileName`, `Hostile Hometown (Expert)`)
-                }
-                // Load popextensions script
-                IncludeScript(`popextensions_main`, getroottable())
-
-                MissionAttrs({
-                    `LoadoutControl` :
-                    {
-                        `tf_weapon_jar_gas` : null
-                    }
-                })
-            "
+            Action RunScriptFile
+            Param pyro_spinner2
         }
 		DoneOutput
 		{
