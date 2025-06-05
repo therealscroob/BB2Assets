@@ -1025,10 +1025,6 @@ LobotomySchedule
 				IncludeScript(`charon_lobo`, getroottable())
 				IncludeScript(`seel_ins`, getroottable())
 
-				// speak your minds, potato servers.
-				try IncludeScript(`errorhandler`, getroottable())
-				catch (e) printl(`errorhandler.nut not found. This script file is used to debug VScript used in the mission, and the error can safely be ignored.`)
-
 				MissionAttrs(
 				{
 					NoRome = 2
