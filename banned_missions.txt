@@ -19,4 +19,10 @@ banned_missions
 	"mvm_coaltown" "intermediate"
 	"mvm_coaltown" "intermediate2"
 	"mvm_coaltown" "expert1"
+	"mvm_decoy" "normal"
+	"mvm_decoy" "advanced"
+	"mvm_decoy" "advanced2"
+	"mvm_decoy" "intermediate"
+	"mvm_decoy" "intermediate2"
+	"mvm_decoy" "expert1"
 }
