@@ -877,6 +877,8 @@ PopExt.AddRobotTag("lobo_boss1",
 		warstomp_particle1.ValidateScriptScope()
 		warstomp_particle1.GetScriptScope().FollowBoss <- function()
 		{
+			// on potato servers, bot handles become null slightly earlier than in vanilla, we need to check for that
+			// this goes the same for other similar thinks
 			if (!bot || !bot.IsValid())
 				return
 
