@@ -22,6 +22,7 @@ banned_missions
 	"mvm_decoy" "normal"
 	"mvm_decoy" "advanced"
 	"mvm_decoy" "advanced2"
+	"mvm_decoy" "advanced3"
 	"mvm_decoy" "intermediate"
 	"mvm_decoy" "intermediate2"
 	"mvm_decoy" "expert1"
