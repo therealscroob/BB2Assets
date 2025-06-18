@@ -877,6 +877,9 @@ PopExt.AddRobotTag("lobo_boss1",
 		warstomp_particle1.ValidateScriptScope()
 		warstomp_particle1.GetScriptScope().FollowBoss <- function()
 		{
+			if (!bot || !bot.IsValid())
+				return
+
 			self.SetLocalOrigin(bot.GetOrigin())
 		}
 		_AddThinkToEnt(warstomp_particle1, "FollowBoss")
@@ -891,6 +894,9 @@ PopExt.AddRobotTag("lobo_boss1",
 		warstomp_particle2.ValidateScriptScope()
 		warstomp_particle2.GetScriptScope().FollowBoss <- function()
 		{
+			if (!bot || !bot.IsValid())
+				return
+
 			self.SetLocalOrigin(bot.GetOrigin())
 		}
 		_AddThinkToEnt(warstomp_particle2, "FollowBoss")
@@ -1203,6 +1209,9 @@ PopExt.AddRobotTag("lobo_boss3",
 						amputator_particle.ValidateScriptScope()
 						amputator_particle.GetScriptScope().FollowBoss <- function()
 						{
+							if (!bot || !bot.IsValid())
+								return
+
 							self.SetLocalOrigin(bot.GetOrigin())
 						}
 						_AddThinkToEnt(amputator_particle, "FollowBoss")
@@ -1221,6 +1230,9 @@ PopExt.AddRobotTag("lobo_boss3",
 			frenzy_particle.ValidateScriptScope()
 			frenzy_particle.GetScriptScope().FollowBoss <- function()
 			{
+				if (!bot || !bot.IsValid())
+					return
+
 				self.SetLocalOrigin(bot.GetOrigin() + Vector(0, 0, 75))
 			}
 			_AddThinkToEnt(frenzy_particle, "FollowBoss")
