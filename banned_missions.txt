@@ -26,4 +26,10 @@ banned_missions
 	"mvm_decoy" "intermediate"
 	"mvm_decoy" "intermediate2"
 	"mvm_decoy" "expert1"
+	"mvm_mannworks" "normal"
+	"mvm_mannworks" "advanced"
+	"mvm_mannworks" "ironman"
+	"mvm_mannworks" "intermediate"
+	"mvm_mannworks" "intermediate2"
+	"mvm_mannworks" "expert1"
 }
