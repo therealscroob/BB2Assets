@@ -34,9 +34,9 @@ WaveSchedule
     FixedRespawnWaveTime 1
     AddSentryBusterWhenDamageDealtExceeds 2000
     AddSentryBusterWhenKillCountExceeds 12
-    // AllowBotExtraSlots 1   
-	// ExtraBotSlotsNoDeathcam 1   
-	// RobotLimit 32   
+    // AllowBotExtraSlots 1 [$SIGSEGV] 
+	// ExtraBotSlotsNoDeathcam 1 [$SIGSEGV] 
+	// RobotLimit 32 [$SIGSEGV] 
     NoRomevisionCosmetics 1
 
     PrecacheModel "models\empty.mdl"
@@ -291,7 +291,7 @@ WaveSchedule
             Action Mobber
             Attributes Miniboss
             Attributes UseBossHealthBar
-            ChangeAttributes    
+            ChangeAttributes [$SIGSEGV]  
             {
                 Delay 0.01
                 Cooldown 0
@@ -311,7 +311,7 @@ WaveSchedule
                     Item "The Short Circuit"
                     //Action Mobber
                     AimTrackingInterval 0.01
-                    FireInput   
+                    FireInput [$SIGSEGV] 
                     {
                         Target "!self" 
                         Action "$RemoveCond" 
@@ -320,7 +320,7 @@ WaveSchedule
                         Cooldown 0.1
                         Repeats 99999
                     }
-                    ChangeAttributes    
+                    ChangeAttributes [$SIGSEGV]  
                     {
                         Delay 10
                         Cooldown 10
@@ -365,9 +365,9 @@ WaveSchedule
                     Item "Upgradeable TF_WEAPON_FISTS"
                     //BehaviorModifiers Push
                     KeepAwayRadius 120 // Keep away distance from target
-                    ExtAttr IgnoreBuildings   // Ignore buildings
-                    //ExtAttr IgnoreRealPlayers   // Ignore players
-                    ChangeAttributes    
+                    ExtAttr IgnoreBuildings [$SIGSEGV] // Ignore buildings
+                    //ExtAttr IgnoreRealPlayers [$SIGSEGV] // Ignore players
+                    ChangeAttributes [$SIGSEGV]  
                     {
                         Delay 10
                         Cooldown 10
@@ -375,7 +375,7 @@ WaveSchedule
                         IfSeeTarget 0 
                         Name "Default" 
                     }
-                    FireInput   
+                    FireInput [$SIGSEGV] 
                     {
                         Target "!self" 
                         Action "$AddCond" 
@@ -504,7 +504,7 @@ WaveSchedule
 
             Item "TTG Sam Revolver"
             Item "Brain-Warming Wear"
-            FireInput   
+            FireInput [$SIGSEGV] 
             {
                 Target "!self" 
                 Action "$SetLocalOrigin" 
@@ -1084,7 +1084,7 @@ WaveSchedule
             Param "IncludeScript(`croc_boss.nut`)"
         }
 
-        Explanation    //Dispayed once the wave is initialized
+        Explanation [$SIGSEGV]  //Dispayed once the wave is initialized
 		{
 			Line "{green}Crocodiles are migrating and are headed your way!"
             Line "{green}Some of them are Robots, and have special abilities!"
@@ -1581,9 +1581,10 @@ WaveSchedule
             Param "IncludeScript(`croc_boss.nut`)"
         }
 
-        Explanation    //Dispayed once the wave is initialized
+        Explanation [$SIGSEGV]  //Dispayed once the wave is initialized
 		{
-            Line "{green}Crocodile Spitters will appear this wave. They will infect victims with a virus that reduces damage and healing every 1.5 seconds while infected."
+            Line "{green}Crocodile Spitters will appear this wave."
+            Line "{green}They will infect victims with a virus that reduces damage and healing every 1.5 seconds while infected."
             line "{green}Find a healthpack, a Medic, a dispenser"
             line "{green}or any source of healing to be cured!"
 		}
@@ -2233,7 +2234,7 @@ WaveSchedule
         
             Support Limited
 
-            FirstSpawnMessage "{green}Once a rocket explodes move quickly after impact, or face a crocodile's wrath!"  
+            FirstSpawnMessage "{green}Once a rocket explodes move quickly after impact, or face a crocodile's wrath!" [$SIGSEGV]
         }
 
         WaveSpawn
@@ -2281,7 +2282,7 @@ WaveSchedule
                 }
                 Item "Rocko"
                 Item "Crocodile Dandy"
-                FireInput   
+                FireInput [$SIGSEGV] 
                 {
                     Target "!self" 
                     Action "$SetLocalOrigin" 
