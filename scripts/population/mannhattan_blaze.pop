@@ -927,7 +927,7 @@ mannhattan_blaze
             logic_relay
             {
                 "targetname" "skybox_custom"
-                "onspawn" "worldspawn,runscriptcode,SetSkyboxTexture(`sky_day03_06`),0,-1"
+                "onspawn" "mapspawn,runscriptcode,SetSkyboxTexture(`sky_day03_06`),0,-1"
             }
         }
     }
