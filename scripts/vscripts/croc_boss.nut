@@ -672,6 +672,10 @@ if (!("ConstantNamingConvention" in ROOT)) // make sure folding is only done onc
 
         for (local ent; ent = FindByClassname(ent, "info_target");)
         {
+            if (ent == null)
+            {
+                continue
+            }
             if (ent.GetName() == "crocodile_virus")
             {
                 ////printl("Found virus event")
