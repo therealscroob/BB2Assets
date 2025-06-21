@@ -446,7 +446,7 @@ custom_mvm_hell
 				"teamnum" "2"
 				"automaterialize" "1"
 			}
-			item_ammopack_medium
+			item_ammopack_full
 			{
 				"origin" "855 -2032 -235"
 				"teamnum" "2"
