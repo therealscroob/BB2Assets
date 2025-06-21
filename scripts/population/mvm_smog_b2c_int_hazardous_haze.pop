@@ -8,8 +8,8 @@ WaveSchedule
 	CanBotsAttackWhileInSpawnRoom	no
 	FixedRespawnWaveTime	Yes
 	Advanced	1
-	NoRomevisionCosmetics 1  
-	TextPrintTime 0   
+	NoRomevisionCosmetics 1 [$SIGSEGV]
+	TextPrintTime 0  [$SIGSEGV]
 	Templates
 	{
 		Inky_Scout

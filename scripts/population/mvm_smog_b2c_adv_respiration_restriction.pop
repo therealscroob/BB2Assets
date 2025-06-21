@@ -8,8 +8,8 @@ WaveSchedule
 	CanBotsAttackWhileInSpawnRoom	no
 	FixedRespawnWaveTime	Yes
 	Advanced	1
-	NoRomevisionCosmetics 1  
-	TextPrintTime 0   
+	NoRomevisionCosmetics 1 [$SIGSEGV]
+	TextPrintTime 0  [$SIGSEGV]
 	Templates
 	{
 		Inky_Scout
@@ -972,30 +972,43 @@ WaveSchedule
 			Target	wave_finished_relay
 			Action	Trigger
 		}
-		Explanation  
+		Explanation [$SIGSEGV]
         {
             Line "See those {7D4071}purple{reset} and {32CD32}green{reset} icons in support?"
 			Line "They represent {7D4071}Smog{reset} and {32CD32}Acid Rain{reset}."
-			Line "It should be self-explanatory, but {7D4071}Smog{FF69B4} will restrict your vision{reset}, while {32CD32}Acid Rain{green} will damage you and provide a speed boost if you are outside and aren't underneath cover{reset}."
+			Line "It should be self-explanatory, but {7D4071}Smog{FF69B4} will restrict your vision{reset}, while {32CD32}Acid Rain{green} will damage you, but provide a speed boost if you are outside and aren't underneath cover{reset}."
         }
 		WaveSpawn
 		{
+			TotalCount	1
 			Support	Limited
-			TFBot
+			RandomChoice
 			{
-				Class Spy
-				Attributes MiniBoss
-				ClassIcon sign_placeholder_blind
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind2}
+				TFBot{Class Spy ClassIcon sign_placeholder_blind2}TFBot{Class Spy ClassIcon sign_placeholder_blind}
 			}
 		}
 		WaveSpawn
 		{
+			TotalCount	1
 			Support	Limited
-			TFBot
+			RandomChoice
 			{
-				Class Spy
-				Attributes MiniBoss
-				ClassIcon sign_placeholder_poison
+				TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}
+				TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}
+				TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}
+				TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}
+				TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}
+				TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon caustic}
+				TFBot{Class Spy ClassIcon caustic}TFBot{Class Spy ClassIcon sign_placeholder_poison}
 			}
 		}
 		WaveSpawn
@@ -1646,7 +1659,7 @@ WaveSchedule
 			WaitForAllDead	6b2
 			WaitBeforeStarting	5
 			FirstSpawnWarningSound "mvm/mvm_bought_in.wav"
-			FirstSpawnMessage "{blue}Chief Healflector Heavy{reset} has {green}bought back{reset} into the game for 'null' credits!"  
+			FirstSpawnMessage "{blue}Chief Healflector Heavy{reset} has {green}bought back{reset} into the game for 'null' credits!" [$SIGSEGV]
 		}
 		WaveSpawn
 		{
