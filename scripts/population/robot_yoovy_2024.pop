@@ -7358,7 +7358,7 @@ WaveSchedule
         {
             //TFBot
             Class Medic
-            Name "Ãœber Medic"
+            Name "Über Medic"
             ClassIcon medic_uber
             Attributes SpawnWithFullCharge
 
@@ -7407,7 +7407,7 @@ WaveSchedule
         {
 			//TFBot
 			Class Medic
-			Name "Quick-Ãœber Medic"
+			Name "Quick-Über Medic"
 			ClassIcon medic_uber
 			Attributes SpawnWithFullCharge
 
@@ -7428,7 +7428,7 @@ WaveSchedule
         {
             //TFBot
             Class Medic
-            Name "Long-Ãœber Medic"
+            Name "Long-Über Medic"
             ClassIcon medic_uber
             Attributes SpawnWithFullCharge
 
@@ -7457,7 +7457,7 @@ WaveSchedule
         {
             //TFBot
             Class Medic
-            Name "Long-Ãœber Medic"
+            Name "Long-Über Medic"
             ClassIcon medic_uber
             Attributes SpawnWithFullCharge
 
@@ -7570,7 +7570,7 @@ WaveSchedule
         {
             //TFBot
             Class Medic
-            Name "Ãœber Shield Medic"
+            Name "Über Shield Medic"
             ClassIcon medic_shield_uber
             Attributes SpawnWithFullCharge
             Attributes ProjectileShield
@@ -7601,7 +7601,7 @@ WaveSchedule
         {
             //TFBot
             Class Medic
-            Name "Quick-Ãœber Shield Medic"
+            Name "Quick-Über Shield Medic"
             ClassIcon medic_shield_uber
             Attributes SpawnWithFullCharge
             Attributes ProjectileShield
@@ -7634,7 +7634,7 @@ WaveSchedule
         {
             //TFBot
             Class Medic
-            Name "Long-Ãœber Shield Medic"
+            Name "Long-Über Shield Medic"
             ClassIcon medic_shield_uber
             Attributes SpawnWithFullCharge
             Attributes ProjectileShield
@@ -7669,7 +7669,7 @@ WaveSchedule
         {
             //TFBot
             Class Medic
-            Name "Long-Ãœber Shield Medic"
+            Name "Long-Über Shield Medic"
             ClassIcon medic_shield_uber
             Attributes SpawnWithFullCharge
             Attributes ProjectileShield
