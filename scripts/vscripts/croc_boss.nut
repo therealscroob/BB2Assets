@@ -266,6 +266,10 @@ if (!("ConstantNamingConvention" in ROOT)) // make sure folding is only done onc
     {
         for (local player; player = FindByClassname(player, "player");)
         {
+            if (player == null)
+            {
+                continue
+            }
             if (player.GetTeam() != TEAM_RED)
             {
                 continue
