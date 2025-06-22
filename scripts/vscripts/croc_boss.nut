@@ -1,6 +1,28 @@
 //vscript by stardustspy
 //do not use without my credit PLEASE!!!!!!!!!
 
+if (!("ConstantNamingConvention" in ROOT))
+	foreach(a, b in Constants)
+		foreach(k, v in b)
+			ROOT[k] <- v != null ? v : 0
+
+// see "CNetPropManager" for applicable functions
+foreach(k, v in ::NetProps.getclass())
+	if (k != "IsValid" && !(k in ROOT))
+		ROOT[k] <- ::NetProps[k].bindenv(::NetProps)
+
+// see "CEntities" for applicable functions
+foreach(k, v in ::Entities.getclass())
+	if (k != "IsValid" && !(k in ROOT))
+		ROOT[k] <- ::Entities[k].bindenv(::Entities)
+
+foreach(k, v in ::EntityOutputs.getclass())
+	if (k != "IsValid" && !(k in ROOT))
+		ROOT[k] <- ::EntityOutputs[k].bindenv(::EntityOutputs)
+
+foreach(k, v in ::NavMesh.getclass())
+	if (k != "IsValid" && !(k in ROOT))
+		ROOT[k] <- ::NavMesh[k].bindenv(::NavMesh)
 
 ::TEAM_RED <- 2
 ::TEAM_BLU <- 3
