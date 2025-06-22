@@ -7382,7 +7382,7 @@ WaveSchedule
         {
 			//TFBot
 			Class Medic
-			Name "Quick-Ãœber Medic"
+			Name "Quick-Über Medic"
 			ClassIcon medic_uber
 			Attributes SpawnWithFullCharge
 
