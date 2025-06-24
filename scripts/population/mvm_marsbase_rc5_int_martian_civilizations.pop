@@ -2353,10 +2353,10 @@ WaveSchedule
 				Action RunScriptCode
 				Param 
 				"
-					ClientPrint(null,3,`\x0799CCFFTank deployed with (2000)*(a) HP!`)
-					ClientPrint(null,3,`\x0799CCFFFind a from 2a³ - 9a - 9990 = 0`)
-					ClientPrint(null,3,`\x0799CCFFa must be Positive Integer`)
-					ClientPrint(null,3,`\x0799CCFFHints: use depress cubic formula (a³ + pa + q = 0) to solved it!`)
+					ClientPrint(null,3,`\x0799CCFFTank deployed with (2000)*(A) HP!`)
+					ClientPrint(null,3,`\x0799CCFFFind A from 3A³ - 8A - 10000 = 5`)
+					ClientPrint(null,3,`\x0799CCFFA must be Positive Integer`)
+					ClientPrint(null,3,`\x0799CCFFHints: use depress cubic formula (A³ + pA + q = 0) to solved it!`)
 				"
 			}
 			
